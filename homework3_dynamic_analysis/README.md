@@ -1,7 +1,7 @@
 # Bài Tập 3: Phân Tích Chương Trình Động
 
 **Môn học:** IT5440 - Nguyên Lý và Kỹ Thuật Phân Tích Chương Trình  
-**Sinh viên:** [Tên của bạn]  
+**Sinh viên:** Phạm Tiến Thành - 20242422M  
 **Ngày:** Tháng 11 năm 2025
 
 ## 📋 Tổng Quan Dự Án

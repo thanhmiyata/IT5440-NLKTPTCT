@@ -505,9 +505,8 @@ int main() {
 **Thực thi:**
 ```bash
 # Biên dịch với cờ -fsanitize=hwaddress và sử dụng lld linker
-docker run --rm hwasanio-temp 
-bash -c "cd /workspace && ./hwasanio-llvm-project/build/bin/clang -fsanitize=hwaddress -fuse-ld=lld -g repr
-o_issue.c -o repro_issue && ./repro_issue"
+docker run --rm hwasanio-temp \
+bash -c "cd /workspace && ./hwasanio-llvm-project/build/bin/clang -fsanitize=hwaddress -fuse-ld=lld -g repro_issue.c -o repro_issue && ./repro_issue"
 ```
 
 **Kết quả:** Chương trình chạy thành công (Exit code 0) và **không báo lỗi**.
